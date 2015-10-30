@@ -1,0 +1,9 @@
+{
+  "name": "word_count",
+  "version": "0.1.0",
+  "description": "Word count package",
+  "main": "index.js",
+  "repository": "silkedit/word_count",
+  "author": "SilkEdit team",
+  "license": "MIT"
+}
