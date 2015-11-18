@@ -4,7 +4,7 @@ module.exports = {
 
 	commands: {
 		"word_count": function() {
-			var text = silk.activeView().text()
+			var text = silk.activeTextEditView().text()
 			if (text !== undefined) {
 				var count = text.split(" ").filter(function(elem){ return elem !== ""; }).length
 				silk.alert(silk.t("word_count:word_count", "word count") + ": " + count)
