@@ -6,10 +6,10 @@ module.exports = {
 
 	commands: {
 		"word_count": function() {
-			var text = silkedit.API.activeTextEditView().text()
+			var text = silkedit.App.activeTextEditView().text()
 			if (text !== undefined) {
 				var count = text.split(" ").filter(function(elem){ return elem !== ""; }).length
-				silkedit.API.alert(silkedit.t("word_count:word_count", "word count") + ": " + count)
+				silkedit.alert(silkedit.tr("word_count:word_count", "word count") + ": " + count)
 			} else {
 				console.log("text is undefined")
 			}
