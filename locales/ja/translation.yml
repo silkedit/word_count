@@ -1,5 +1,5 @@
 menu:
   word_count:
-    label: 単語数カウント
-    
+    title: 単語数カウント
+
 word_count: 単語数

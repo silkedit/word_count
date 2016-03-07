@@ -1,7 +1,7 @@
 menu:
-  - label: Text
+  - title: Text
     id: edit
     menu:
-    - label: 'Word Count'
+    - title: 'Word Count'
       id: word_count
       command: word_count.word_count
