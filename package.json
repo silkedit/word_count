@@ -1,9 +1,14 @@
 {
   "name": "word_count",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Word count package",
   "main": "index.js",
   "repository": "silkedit/word_count",
   "author": "SilkEdit team",
-  "license": "MIT"
+  "license": "MIT",
+  "locales": {
+    "ja": {
+      "description" : "単語カウントパッケージ"
+    }
+  }
 }
