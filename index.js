@@ -6,7 +6,7 @@ module.exports = {
 
 	commands: {
 		"word_count": function() {
-			var text = silkedit.App.activeTextEditView().text()
+			var text = silkedit.App.activeTextEditView().text
 			if (text !== undefined) {
 				var count = text.split(" ").filter(function(elem){ return elem !== ""; }).length
 				silkedit.alert(silkedit.tr("word_count:word_count", "word count") + ": " + count)
