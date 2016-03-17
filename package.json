@@ -1,6 +1,6 @@
 {
   "name": "word_count",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Word count package",
   "main": "index.js",
   "repository": "silkedit/word_count",
